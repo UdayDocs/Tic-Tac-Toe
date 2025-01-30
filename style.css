@@ -1,0 +1,30 @@
+body {
+    display: flex;
+            min-height: 100vh;
+                        justify-content: center;
+                align-items: center;
+}
+#game-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    padding-bottom: 250px;
+}
+h1 {
+    color: #2c9e31;
+    padding-left: 50px;
+}
+.cell {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: 1px solid #944444;
+    cursor: pointer;
+}
